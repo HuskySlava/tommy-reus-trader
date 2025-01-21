@@ -1,0 +1,26 @@
+{
+  "engines": {
+    "npm": ">=10.9.2",
+    "node": ">=22.13.1"
+  },
+  "name": "tommy-reus-trader",
+  "version": "0.0.1",
+  "description": "Crypto Trader Bot",
+  "main": "app.js",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "node dist/app.js",
+    "dev": "npm run build && npm run start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Slava Mihaelov",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.10.7",
+    "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "moment": "^2.30.1"
+  }
+}
